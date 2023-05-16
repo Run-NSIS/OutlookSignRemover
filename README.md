@@ -1,2 +1,7 @@
-# OutlookSignRemover
-Outlook Signatures Removal Tool
+# Outlook Signatures Removal Tool (OutlookSignRemover)
+
+Un'utilità che svolge un lavoro banale: rinominare la cartella **Signatures** che si trova nell’AppData dell'utente (`%AppData%\Microsoft\Signatures`) e che contiene tutto il necessario per Outlook per includere la firma / le firme manuali in coda al corpo email. Perché rinominarla e non cancellarla definitivamente? Perché sono stronzo è vero, ma non così tanto da far perdere dei dati all’utente che potrebbe decidere – che ne so – di integrarli / migrarli all'interno della funzione "**Moduli**" proposta da Outlook e che talvolta torna utile per riportare facilmente testo che si è abituati a inserire in risposta a email tutte uguali (penso a un'assistenza clienti che ripete più o meno la stessa solfa per rispondere a chissà quante domande simili o addirittura uguali tra di loro).  
+  
+L'applicazione è scritta come un installer NSIS e l'ho testata con successo su Windows 10 e 11 con a bordo le versioni più recenti della suite Office (anche se in questo trattandosi di una cartella nell’Application Data di Windows poco importa e impatta la versione di Office installata). **Le modifiche introdotte a partire dalla versione 0.3 lavorano esclusivamente su Microsoft Office aggiornati (16.0+)**.
+
+Leggi l'articolo pubblicato sul blog per approfondire: https://go.gioxx.org/outlooksignremover
